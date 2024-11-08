@@ -35,4 +35,14 @@ export default [
       ],
     },
   },
+  // Adicionando a configuração para os arquivos do Node.js, como o postcss.config.js
+  {
+    files: ['postcss.config.js'], // Adicione aqui os arquivos que utilizam Node.js
+    env: {
+      node: true, // Permite o uso de 'require' e 'module.exports'
+    },
+    rules: {
+      'no-undef': 'off', // Desabilita a regra 'no-undef' que acusa 'require' como indefinido
+    },
+  },
 ]

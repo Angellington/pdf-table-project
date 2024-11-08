@@ -1,0 +1,26 @@
+.ExcelTable2007 {
+    width: 60%;
+    border-collapse: collapse; /* Colapsa as bordas */
+    border: 1px solid #ddd; /* Adiciona uma borda leve à tabela */
+    
+}
+
+.ExcelTable2007 th,
+.ExcelTable2007 td {
+    border: 1px solid #ddd; /* Adiciona bordas às células */
+    padding: 4px;
+    text-align: left;
+    font-size: 12px;
+
+}
+
+.ExcelTable2007 th {
+    background-color: #f2f2f2; /* Cor de fundo das células de cabeçalho */
+    font-weight: bold;
+
+}
+
+.heading {
+    background-color: #f9f9f9; /* Cor de fundo para as linhas de cabeçalho */
+    font-size: 14px;
+}
