@@ -1,3 +1,12 @@
+/* 
+Uso da planilha: https://spreadsheets.google.com/feeds/cells/ID_DA_PLANILHA/1/public/full?alt=json
+
+Planilha 1: https://spreadsheets.google.com/feeds/cells/1NVgEhE19QExnDoyXEcOw52LQ7u_mSmW3/1/public/full?alt=json
+
+https://docs.google.com/spreadsheets/d/1NVgEhE19QExnDoyXEcOw52LQ7u_mSmW3/edit?usp=sharing&ouid=117243826247567002289&rtpof=true&sd=true
+
+*/
+
 import React, { useState, useEffect } from 'react';
 import { OutTable, ExcelRenderer } from 'react-excel-renderer';
 import './styles/excel.css'
@@ -9,7 +18,7 @@ function Excel() {
     const [rows, setRows] = useState([]);
 
     useEffect(() => {
-        const filePath = '...'
+        const filePath = '/PLANILHA (1).xlsx'
 
         //Fetch para carregar o arquivo
         fetch(filePath)

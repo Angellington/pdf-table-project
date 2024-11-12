@@ -1,0 +1,79 @@
+{
+    "idTemplate": "1A8kOxITLa0zo2WBxbXatYkArRhnA1dyja0yrdAlPOkI",
+    "mailreport": "ronaldbandeira@gmail.com, fulanox187@gmail.com",
+    "mailTitle": "ReportFlow",
+    "mailBody": "Seu  acabou de chegar.",
+    "data": {
+      "faturaId": "",
+      "faturaData": "",
+      "nomeCliente": "",
+      "telefoneCliente": "",
+      "emailCliente": "",
+      "nomeVendedor": "",
+      "telefoneVendedor": "",
+      "emailVendedor": "",
+      "dataInicioAssinatura": "",
+      "dataFimAssinatura": "",
+      "nota": "",
+      "totalSemtaxa": "",
+      "totalTaxas": "",
+      "totalComTaxas": "",
+      "TotalPagar": "",
+      "logoEmpresaATN": "",
+      "carrosTotal": "15",
+      "motosTotal": "23",
+      "frutasTotal": "5",
+      "tables": {
+        "produtos": "",
+        "livros": "",
+        "carros": [
+          {
+            "nome": "Corolla",
+            "quantidade": "5",
+            "precoUnitario": "60000",
+            "taxa": "0",
+            "valorTotal": "137182"
+          },
+          {
+            "nome": "Civic",
+            "quantidade": "14",
+            "precoUnitario": "107000",
+            "taxa": "0",
+            "valorTotal": "654876"
+          },
+          {
+            "nome": "Gol",
+            "quantidade": "2",
+            "precoUnitario": "55000",
+            "taxa": "0",
+            "valorTotal": "110000"
+          }
+        ],
+        "frutas": "",
+        "cores": "",
+        "motos": [
+          {
+            "nome": "Honda",
+            "quantidade": "8",
+            "precoUnitario": "152000",
+            "taxa": "0",
+            "valorTotal": "563654"
+          },
+          {
+            "nome": "Bros",
+            "quantidade": "21",
+            "precoUnitario": "155000",
+            "taxa": "0",
+            "valorTotal": "186253"
+          },
+          {
+            "nome": "CG",
+            "quantidade": "7",
+            "precoUnitario": "123000",
+            "taxa": "0",
+            "valorTotal": "552000"
+          }
+        ]
+      }
+    }
+  }
